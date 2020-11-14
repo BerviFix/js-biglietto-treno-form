@@ -1,0 +1,83 @@
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/0a/66/69/0a6669cf7827118c48d09b4cd81cde12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+input {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+.show {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+.wrapper_ticket {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.ticket_title {
+  margin-top: 0;
+}
+.ticket_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  height: 700px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  box-shadow: 4px 4px 15px 1px #000000;
+  background-color: #5B6269;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+img {
+  position: absolute;
+  top: 57%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 500px;
+  margin: 30px 0;
+  box-shadow: 4px 4px 15px 1px #000000;
+  border-radius: 10px;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  margin: 20px 0;
+  box-shadow: 4px 4px 15px 1px #000000;
+  border-radius: 10px;
+}
