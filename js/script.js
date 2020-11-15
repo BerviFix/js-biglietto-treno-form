@@ -36,3 +36,21 @@ function () {
     document.getElementById("price_ticket").innerHTML = discountOld;
   }
 });
+
+var btnReset = document.getElementById("btn_reset");
+btnReset.addEventListener("click",
+function () {
+  var elementReset = document.getElementById("ticket");
+  elementReset.classList.remove("show");
+  elementReset.classList.add("hidden");
+
+  document.getElementById("name_user").value = "";
+  document.getElementById("kilometers").value = "";
+  document.getElementById("age_user").value = "";
+
+  document.getElementById("name_ticket").innerHTML = "";
+  document.getElementById("discount_ticket").innerHTML = "";
+  document.getElementById("passenger_car").innerHTML = "";
+  document.getElementById("cp").innerHTML = "";
+  document.getElementById("price_ticket").innerHTML = "";
+});
