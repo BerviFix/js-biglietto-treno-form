@@ -64,7 +64,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 40%;
-  height: 500px;
+  height: 600px;
   margin: 30px 0;
   box-shadow: 4px 4px 15px 1px #000000;
   border-radius: 10px;
@@ -80,4 +80,67 @@ img {
   margin: 20px 0;
   box-shadow: 4px 4px 15px 1px #000000;
   border-radius: 10px;
+}
+
+.button_container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn_calculator {
+  width: 150px;
+  height:50px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  border-radius: 5px 25px;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  animation: jittery 4s infinite;
+}
+
+#btn_reset {
+  width: 150px;
+  height:50px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  border-radius: 5px 25px;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+@keyframes jittery {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(0.9);
+  }
+
+  15% {
+    transform: scale(1.15);
+  }
+
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
 }
