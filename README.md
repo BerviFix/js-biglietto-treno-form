@@ -1,1 +1,1 @@
-Se volete vedere il progetto senza il download della repo lo trovate al seguente link: https://r8ht1.csb.app/
+Hey! Perchè scaricare la repo quando puoi trovare il progetto al seguente indirizzo: https://bervifix.github.io/js-biglietto-treno-form/ "Easy peasy 😎"
